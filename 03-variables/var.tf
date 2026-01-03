@@ -27,5 +27,5 @@ variable "map" {
 }
 
 output "map" {
-  value = var.map[a]
+  value = var.map["a"]
 }
