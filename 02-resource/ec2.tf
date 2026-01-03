@@ -13,7 +13,7 @@ resource "aws_instance" "test" {
   vpc_security_group_ids = ["sg-0262c4232ab2a8184"]
 
   tags = {
-    name = "test_VM2"
+    Name = "test_VM2"
 
   }
 }
