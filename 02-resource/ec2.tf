@@ -6,14 +6,14 @@ terraform {
     }
   }
 }
-resource "aws_instance" "test" {
+resource "aws_instance" "test1" {
 
   ami = "ami-09c813fb71547fc4f"
   instance_type = "t3.medium"
   vpc_security_group_ids = ["sg-0262c4232ab2a8184"]
 
   tags = {
-    Name = "test_VM2"
+    Name = "test_VM3"
 
   }
 }
