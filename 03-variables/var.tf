@@ -13,7 +13,7 @@ variable "list" {
 }
 
 output "list" {
-  value = var.list
+  value = var.list[0]
 }
 
 variable "map" {
@@ -27,5 +27,5 @@ variable "map" {
 }
 
 output "map" {
-  value = var.map
+  value = var.map[0]
 }
