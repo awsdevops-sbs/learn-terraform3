@@ -1,7 +1,7 @@
 variable "security_group" {}
 
 data "aws_security_group" "selected" {
-  name = "allow-all"
+  name = "Allow-all-from-public"
 }
 
 output "security_group" {
