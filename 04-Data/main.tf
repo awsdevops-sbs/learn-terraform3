@@ -7,6 +7,6 @@ data "aws_security_group" "selected" {
 
 output "security_group" {
 
-  value = data.aws_security_group.selected.name
+  value = data.aws_security_group.selected.region
 
 }
