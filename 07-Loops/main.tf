@@ -20,10 +20,10 @@ variable "colors" {
 
   default = {
 
-    31 = red
-    32 = yellow
-    33 = purple
-    34 = white
+    "31" = "red"
+    "32" = "yellow"
+    "33" = "purple"
+    "34" = "white"
 
   }
 
