@@ -5,5 +5,5 @@ data "aws_security_group" "selected" {
 }
 
 output "security_group" {
-  value = var.security_group.selected
+  value = var.aws_security_group.selected
 }
