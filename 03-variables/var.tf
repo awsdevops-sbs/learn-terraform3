@@ -29,3 +29,10 @@ variable "map" {
 output "map" {
   value = [var.map["a"],var.map["b"]]
 }
+
+variable "env" {}
+
+output "env" {
+  value = var.env
+}
+
