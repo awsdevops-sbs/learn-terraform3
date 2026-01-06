@@ -8,3 +8,8 @@ terraform {
   }
 
 }
+
+variable "message" {}
+output "message" {
+  value = "Bucket example"
+}
